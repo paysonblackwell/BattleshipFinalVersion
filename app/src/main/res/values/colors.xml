@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#12404e</color>
+    <color name="colorPrimaryDark">#12404e</color>
+    <color name="colorAccent">#12404e</color>
+    <color name="text_color">#dde8ef</color>
+    <color name="cell_border">#FFE3FBFA</color>
+    <color name="init_cell_background">#7cdaf1</color>
+    <color name="hit_cell_background">#f3475e</color>
+    <color name="miss_cell_background">#277da2</color>
+
+    <color name="test_color">#4db17a</color>
+    <color name="test_color2">#e875f2</color>
+
+</resources>

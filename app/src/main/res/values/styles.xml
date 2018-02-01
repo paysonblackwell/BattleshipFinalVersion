@@ -1,0 +1,35 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="@attr/hit_cell">@style/hit_cell</item>
+        <item name="@attr/miss_cell">@style/miss_cell</item>
+    </style>
+
+    <style name="init_cell" parent="@android:style/Widget.Button">
+        <item name="android:shape">rectangle</item>
+        <item name="android:background">@drawable/init_cell</item>
+    </style>
+
+    <attr name="hit_cell" format="reference" />
+    <attr name="miss_cell" format="reference" />
+
+    <style name="miss_cell" parent="@android:style/Widget.Button">
+        <item name="android:shape">rectangle</item>
+        <item name="android:background">@drawable/miss_cell</item>
+    </style>
+
+    <style name="hit_cell" parent="@android:style/Widget.Button">
+        <item name="android:shape">rectangle</item>
+        <item name="android:background">@drawable/hit_cell</item>
+    </style>
+
+    <style name="HiddenTitleTheme" parent="AppTheme">
+        <item name="windowNoTitle">true</item>
+        <item name="windowActionBar">false</item>
+    </style>
+</resources>
